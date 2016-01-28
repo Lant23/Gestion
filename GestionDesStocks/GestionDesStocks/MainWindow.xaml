@@ -1,0 +1,19 @@
+﻿<Window x:Name="Gestion_Des_Stocks" x:Class="GestionDesStocks.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:GestionDesStocks"
+        mc:Ignorable="d"
+        Title="Gestion des stocks" Height="230.625" Width="257.218">
+    <Grid>
+        <Label x:Name="id" Content="Adresse E-mail" HorizontalAlignment="Left" Height="30" Margin="58,36,0,0" VerticalAlignment="Top" Width="126" FontSize="16" FontWeight="Bold" FontStyle="Italic"/>
+        <Label x:Name="pwd" Content="Mot de passe" HorizontalAlignment="Left" Height="30" Margin="65,87,0,0" VerticalAlignment="Top" Width="108" FontSize="16" FontWeight="Bold" FontStyle="Italic"/>
+        <TextBox x:Name="tb_mail" HorizontalAlignment="Left" Height="16" Margin="50,71,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="136"/>
+        <PasswordBox x:Name="pb_pwd" HorizontalAlignment="Left" Height="16" Margin="50,122,0,0" VerticalAlignment="Top" Width="136"/>
+        <Label x:Name="title" Content="Interface de connexion" HorizontalAlignment="Left" Height="25" Margin="58,0,0,0" VerticalAlignment="Top" Width="128" FontStyle="Italic"/>
+        <Button x:Name="b_valider" Content="Valider" HorizontalAlignment="Left" Height="24" Margin="142,157,0,0" VerticalAlignment="Top" Width="86" Click="b_valider_Click"/>
+        <Button x:Name="b_inscription" Content="Inscription" HorizontalAlignment="Left" Height="24" Margin="10,157,0,0" VerticalAlignment="Top" Width="86" Click="b_inscription_Click"/>
+
+    </Grid>
+</Window>
